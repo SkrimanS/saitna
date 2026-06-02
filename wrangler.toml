@@ -5,3 +5,12 @@ compatibility_date = "2025-12-01"
 [vars]
 REPO = "SkrimanS/saitna"
 BRANCH = "main"
+BACKUP_INTERVAL_SECONDS = "300"
+
+[[durable_objects.bindings]]
+name = "PROJECT_ROOM"
+class_name = "ProjectRoom"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["ProjectRoom"]
