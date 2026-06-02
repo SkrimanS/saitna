@@ -1089,9 +1089,16 @@
     "n1780423610604": []
   },
   "meta": {
-    "history": [],
+    "history": [
+      {
+        "time": "2026-06-02T20:30:31.564Z",
+        "user": "Yta",
+        "action": "Сохранение общего проекта",
+        "details": ""
+      }
+    ],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T20:30:31.499Z"
+    "lastSavedAt": "2026-06-02T20:30:32.104Z"
   },
   "selectedId": "q_prologue"
 }
