@@ -18,7 +18,8 @@
       "need": [],
       "set": [
         "world_return_rule"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_arrival",
@@ -39,7 +40,8 @@
       "need": [],
       "set": [
         "kael_registered"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_memorial",
@@ -62,7 +64,8 @@
       ],
       "set": [
         "edan_not_dead_status"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_marra",
@@ -86,7 +89,8 @@
       "set": [
         "met_marra",
         "edan_held_door"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_debt",
@@ -110,7 +114,8 @@
       "set": [
         "debt_known",
         "three_debt_paths"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_market",
@@ -133,7 +138,8 @@
       ],
       "set": [
         "basic_gear"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_averna",
@@ -155,7 +161,8 @@
       ],
       "set": [
         "case_is_memory_record"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_prep",
@@ -178,7 +185,8 @@
       ],
       "set": [
         "ready_for_descent"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_gate",
@@ -201,7 +209,8 @@
       ],
       "set": [
         "entered_abyss"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_threshold",
@@ -224,7 +233,8 @@
       ],
       "set": [
         "first_threshold_survived"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_return",
@@ -247,7 +257,8 @@
       ],
       "set": [
         "returned_after_first_descent"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_archive",
@@ -270,7 +281,8 @@
       ],
       "set": [
         "dry_steps_trace"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_salt",
@@ -293,7 +305,8 @@
       ],
       "set": [
         "salt_stair_reached"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_dry_chamber",
@@ -316,7 +329,8 @@
       ],
       "set": [
         "answered_with_not_for_but_with"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_edan",
@@ -339,7 +353,8 @@
       ],
       "set": [
         "edan_claim_seen"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "q_final",
@@ -362,7 +377,8 @@
       ],
       "set": [
         "book1_return_right_resolved"
-      ]
+      ],
+      "favorite": false
     },
     {
       "id": "n1780423610604",
@@ -384,7 +400,8 @@
       ],
       "set": [
         "world_return_rule"
-      ]
+      ],
+      "favorite": false
     }
   ],
   "links": [
@@ -1074,7 +1091,7 @@
   "meta": {
     "history": [],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T19:58:08.408Z"
+    "lastSavedAt": "2026-06-02T19:58:51.634Z"
   },
   "selectedId": "q_prologue"
 }
