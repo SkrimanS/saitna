@@ -3143,7 +3143,7 @@
       }
     ],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T21:29:32.976Z",
+    "lastSavedAt": "2026-06-02T21:41:35.738Z",
     "sources": {
       "bezdna_pamyat_glubin_tom1_v10": {
         "title": "Бездна: Память Глубин — Том I v10",
@@ -3165,7 +3165,9 @@
         "dialogs": 14,
         "importedAt": "2026-06-02T21:14:05.911Z"
       }
-    }
+    },
+    "liveUpdatedBy": "Yta",
+    "liveUpdatedAt": "2026-06-02T21:41:35.738Z"
   },
   "selectedId": "q_final"
 }
