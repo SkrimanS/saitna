@@ -44,8 +44,8 @@
     {
       "id": "q_memorial",
       "type": "dialogue",
-      "x": -85.17770130069079,
-      "y": 271.4331550802141,
+      "x": -82.23652483010255,
+      "y": 265.5508021390376,
       "title": "Дом поминовения",
       "act": "Часть I",
       "npc": "Ольма",
@@ -1074,7 +1074,7 @@
   "meta": {
     "history": [],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T19:30:11.627Z"
+    "lastSavedAt": "2026-06-02T19:30:32.396Z"
   },
-  "selectedId": "q_prologue"
+  "selectedId": "q_memorial"
 }
