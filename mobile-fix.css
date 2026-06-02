@@ -1,0 +1,194 @@
+/* Mobile layout cleanup for Bezdna editor. Loaded after style.css. */
+@media (max-width: 900px) {
+  html,
+  body {
+    width: 100%;
+    height: 100dvh;
+    min-height: 100dvh;
+    overflow: hidden;
+    touch-action: none;
+  }
+
+  .app {
+    display: block !important;
+    width: 100vw;
+    height: 100dvh;
+    min-width: 0 !important;
+    overflow: hidden;
+  }
+
+  .map {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  #wrap {
+    inset: 0;
+    padding-bottom: 92px;
+  }
+
+  /* Desktop toolbar was overlapping the mobile bar. Hide it on phones. */
+  .top {
+    display: none !important;
+  }
+
+  .legend {
+    display: none !important;
+  }
+
+  .mobileBar {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 10px);
+    z-index: 80;
+    display: grid !important;
+    grid-template-columns: 1.15fr 58px 58px 1.15fr;
+    gap: 8px;
+    padding: 10px;
+    border-radius: 22px;
+    background: rgba(12, 16, 23, .94);
+    border: 1px solid rgba(214, 163, 74, .48);
+    box-shadow: 0 12px 34px rgba(0, 0, 0, .62), inset 0 0 0 1px rgba(255,255,255,.035);
+    backdrop-filter: blur(12px);
+  }
+
+  .mobileBar .btn {
+    min-height: 54px;
+    padding: 10px 8px;
+    border-radius: 16px;
+    font-size: 18px;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .mobileBar .btn:nth-child(2),
+  .mobileBar .btn:nth-child(3) {
+    font-size: 23px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .side {
+    position: fixed !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: min(92vw, 390px) !important;
+    max-width: none !important;
+    padding: 16px;
+    padding-top: max(16px, env(safe-area-inset-top, 0px));
+    padding-bottom: calc(92px + env(safe-area-inset-bottom, 0px));
+    transform: translateX(-104%);
+    transition: transform .22s ease;
+    z-index: 90;
+    border-right: 1px solid var(--bd);
+    box-shadow: 16px 0 46px rgba(0,0,0,.62);
+  }
+
+  .side.open {
+    transform: translateX(0);
+  }
+
+  .right {
+    left: 0 !important;
+    right: 0 !important;
+    top: auto !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    max-width: none !important;
+    height: min(76dvh, 680px);
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid var(--bd);
+    border-radius: 24px 24px 0 0;
+    transform: translateY(104%) !important;
+    padding: 16px;
+    padding-bottom: calc(92px + env(safe-area-inset-bottom, 0px));
+    box-shadow: 0 -18px 50px rgba(0,0,0,.72);
+  }
+
+  .right.open {
+    transform: translateY(0) !important;
+  }
+
+  .drawerBtn {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+  }
+
+  .tab {
+    display: flex !important;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .right > .row.space {
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .right > .row.space .tab {
+    flex: 1;
+  }
+
+  .right > .row.space .tab button {
+    flex: 1;
+    min-height: 42px;
+  }
+
+  .statgrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+
+  .node {
+    width: 235px;
+    min-height: 108px;
+    border-radius: 15px;
+  }
+
+  .node .title {
+    font-size: 16px;
+  }
+
+  .node .desc {
+    font-size: 12px;
+  }
+
+  .toast {
+    left: 12px;
+    right: 12px;
+    bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+    transform: none;
+    text-align: center;
+    z-index: 100;
+  }
+}
+
+@media (max-width: 420px) {
+  .mobileBar {
+    grid-template-columns: 1fr 52px 52px 1fr;
+    gap: 6px;
+    left: 8px;
+    right: 8px;
+    padding: 8px;
+  }
+
+  .mobileBar .btn {
+    min-height: 50px;
+    font-size: 16px;
+  }
+
+  .node {
+    width: 225px;
+  }
+}
