@@ -90,7 +90,7 @@
         "met_marra",
         "edan_held_door"
       ],
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "q_debt",
@@ -1091,7 +1091,7 @@
   "meta": {
     "history": [],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T19:57:07.261Z"
+    "lastSavedAt": "2026-06-02T19:57:09.341Z"
   },
   "selectedId": "q_marra"
 }
