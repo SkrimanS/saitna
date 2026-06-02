@@ -31,10 +31,11 @@
     <div id="right"></div>
   </aside>
 </div>
-<div class="mobileBar"><button class="btn" onclick="openLeft()">☰ Список</button><button class="btn gold" onclick="setTool('pan')">🖐</button><button class="btn" onclick="setTool('edit')">✦</button><button class="btn" onclick="openRight()">Редактор</button></div>
+<div class="mobileBar"><button class="btn" onclick="openLeft()">☰ Список</button><button class="btn" onclick="mobileZoomOut()">−</button><button class="btn gold" onclick="setTool('pan')">🖐</button><button class="btn" onclick="setTool('edit')">✦</button><button class="btn" onclick="mobileZoomIn()">+</button><button class="btn" onclick="openRight()">Редактор</button></div>
 <div id="toast" class="toast"></div>
 <script src="app.js"></script>
 <script src="worker-bridge.js"></script>
 <script src="tab-fix.js"></script>
+<script src="mobile-gestures.js"></script>
 </body>
 </html>
