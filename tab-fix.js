@@ -1,4 +1,5 @@
-// Fix visual active state for top and inspector tabs.
+// Visual + functional tab switching fix.
+// app.js keeps `tab` as a global lexical variable, so we update it through global eval.
 (function () {
   function setActiveInGroup(button) {
     const group = button.closest('.tab');
@@ -7,38 +8,52 @@
     button.classList.add('active');
   }
 
-  function setEditorTab(name, button) {
-    if (button) setActiveInGroup(button);
-    window.tab = name;
-    if (typeof window.renderRight === 'function') window.renderRight();
+  function setAppTab(name) {
+    try {
+      (0, eval)(`tab = ${JSON.stringify(name)}; renderRight();`);
+    } catch (error) {
+      console.error('Tab switch failed:', error);
+    }
   }
 
-  window.setEditorTab = setEditorTab;
+  function syncRightTabs(name) {
+    const map = { quest: 0, dialog: 1, play: 2 };
+    const buttons = document.querySelectorAll('#rightPanel .tab button');
+    buttons.forEach(b => b.classList.remove('active'));
+    if (buttons[map[name]]) buttons[map[name]].classList.add('active');
+  }
 
-  window.addEventListener('DOMContentLoaded', () => {
+  function bindTabs() {
     const topButtons = document.querySelectorAll('.top .tab button');
     const rightButtons = document.querySelectorAll('#rightPanel .tab button');
-
     const topMap = ['story', 'quest', 'dialog', 'play'];
     const rightMap = ['quest', 'dialog', 'play'];
 
     topButtons.forEach((button, index) => {
-      button.onclick = (event) => {
+      button.addEventListener('click', (event) => {
         event.preventDefault();
         const next = topMap[index] || 'quest';
         setActiveInGroup(button);
         if (next !== 'story') {
-          window.tab = next;
-          if (typeof window.renderRight === 'function') window.renderRight();
+          syncRightTabs(next);
+          setAppTab(next);
         }
-      };
+      });
     });
 
     rightButtons.forEach((button, index) => {
-      button.onclick = (event) => {
+      button.addEventListener('click', (event) => {
         event.preventDefault();
-        setEditorTab(rightMap[index] || 'quest', button);
-      };
+        const next = rightMap[index] || 'quest';
+        setActiveInGroup(button);
+        setAppTab(next);
+      });
     });
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bindTabs);
+  } else {
+    bindTabs();
+  }
 })();
