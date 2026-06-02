@@ -12,7 +12,7 @@
     <div class="row space"><h1>Бездна</h1><button class="btn drawerBtn" onclick="closePanels()">×</button></div>
     <p><b>Редактор квестов и диалогов</b><br>восстановлена расширенная схема + GitHub-хранилище</p>
     <div class="statgrid"><div class="stat"><b id="stNodes">0</b><span class="tiny">основа</span></div><div class="stat"><b id="stBranches">0</b><span class="tiny">ветки</span></div><div class="stat"><b id="stChoices">0</b><span class="tiny">выборы</span></div><div class="stat"><b id="stLinear">0%</b><span class="tiny">линейность</span></div></div>
-    <div class="card"><b>GitHub-синхронизация</b><div id="status" class="tiny">Локальный режим</div><label>Репозиторий<input id="ghRepo" class="field" value="SkrimanS/saitna"></label><div class="grid2"><label>Ветка<input id="ghBranch" class="field" value="main"></label><label>JSON<input id="ghPath" class="field" value="data/project.json"></label></div><label>Token<input id="ghToken" class="field" type="password" placeholder="GitHub token с Contents: read/write"></label><label><input id="ghAuto" type="checkbox"> Автосохранение на GitHub</label><div class="row"><button class="btn green" onclick="saveGitHub()">Сохранить</button><button class="btn" onclick="loadGitHub()">Загрузить</button><button class="btn" onclick="shareGitHub()">Ссылка</button></div><p class="tiny">GitHub Pages не может сам записывать файлы. Каждый редактор вводит свой token, а сайт пишет общую схему в репозиторий.</p></div>
+    <div class="card"><b>Общий онлайн-проект</b><div id="status" class="tiny">Подключение...</div><p class="tiny">GitHub-хранилище через Cloudflare Worker. Людям token не нужен.</p><div class="row"><button class="btn green" onclick="saveGitHub()">Сохранить всем</button><button class="btn" onclick="loadGitHub()">Обновить</button><button class="btn" onclick="shareGitHub()">Ссылка</button><button class="btn" onclick="setName()">Имя</button></div></div>
     <input id="search" class="field" placeholder="Поиск: Марра, долг, дверь...">
     <h2>Цепочка</h2><div id="list"></div>
     <h2>Файлы</h2><label class="btn green" style="text-align:center;cursor:pointer">Загрузить файл к узлу<input id="fileUpload" type="file" hidden></label><button class="btn" onclick="exportJSON()">Скачать JSON</button><label class="btn" style="text-align:center;cursor:pointer">Импорт JSON<input id="jsonImport" type="file" accept="application/json" hidden></label>
@@ -33,5 +33,6 @@
 <div class="mobileBar"><button class="btn" onclick="openLeft()">☰ Список</button><button class="btn gold" onclick="setTool('pan')">🖐</button><button class="btn" onclick="setTool('edit')">✦</button><button class="btn" onclick="openRight()">Редактор</button></div>
 <div id="toast" class="toast"></div>
 <script src="app.js"></script>
+<script src="worker-bridge.js"></script>
 </body>
 </html>
