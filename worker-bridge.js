@@ -11,6 +11,7 @@ let __pendingRemote = null;
 let __autoSaveTimer = null;
 let __pollTimer = null;
 let __lastUserInputAt = 0;
+let __lastLocalSnapshotAt = 0;
 
 function workerKey() {
   const params = new URLSearchParams(location.search);
@@ -54,13 +55,21 @@ function stateJson() {
 function isUserEditingNow() {
   const a = document.activeElement;
   const inField = a && a.matches && a.matches('input, textarea, select');
-  return Boolean(inField) || (Date.now() - __lastUserInputAt < 1400);
+  return Boolean(inField) || (Date.now() - __lastUserInputAt < 3000);
+}
+
+function hasUnsavedLocal(currentJson = stateJson()) {
+  // The important fix: even if __localDirty was not set yet, compare current state
+  // with the last state loaded/saved from the Worker. If different, never auto-apply remote.
+  return Boolean(currentJson && __lastRemoteJson && currentJson !== __lastRemoteJson);
 }
 
 function markLocalChanged() {
   if (__syncingFromWorker) return;
   const current = stateJson();
-  if (!current || current === __lastLocalJson) return;
+  if (!current) return;
+  __lastLocalSnapshotAt = Date.now();
+  if (current === __lastLocalJson && !hasUnsavedLocal(current)) return;
   __lastLocalJson = current;
   __localDirty = true;
   scheduleWorkerSave();
@@ -73,7 +82,7 @@ function scheduleWorkerSave() {
       if (typeof status === 'function') status('Ошибка автосохранения: ' + e.message);
       console.error(e);
     });
-  }, 1600);
+  }, 2600);
 }
 
 function applyRemoteState(remoteState, showMessage = false) {
@@ -98,18 +107,22 @@ async function loadWorkerProject(showMessage = true, force = false) {
   if (data.exists && data.state) {
     const remoteJson = JSON.stringify(data.state);
     const currentJson = stateJson();
+    const localUnsaved = hasUnsavedLocal(currentJson);
 
     if (!force && remoteJson === currentJson) {
       __lastRemoteJson = remoteJson;
       __lastLocalJson = currentJson;
       __localDirty = false;
+      __pendingRemote = null;
       if (showMessage) status('Уже актуально');
       return true;
     }
 
-    if (!force && (__localDirty || isUserEditingNow())) {
+    // Never overwrite local changes automatically. Queue remote update instead.
+    if (!force && (localUnsaved || __localDirty || isUserEditingNow())) {
+      __localDirty = localUnsaved || __localDirty;
       __pendingRemote = data.state;
-      if (showMessage) status('Есть обновление от другого, но твои правки не перезаписаны');
+      if (showMessage) status('Есть обновление от другого, но твои правки не перезаписаны. Сначала сохрани свои изменения.');
       return true;
     }
 
@@ -136,6 +149,7 @@ async function saveWorkerProject(showMessage = true) {
   __localDirty = false;
   __lastLocalJson = stateJson();
   __lastRemoteJson = __lastLocalJson;
+  __pendingRemote = null;
   if (showMessage) status('Сохранено в общий проект');
 }
 
@@ -165,7 +179,7 @@ async function uploadWorkerFile(file) {
 
 window.loadGitHub = async function () {
   try {
-    if (__localDirty && !confirm('Есть несохранённые локальные изменения. Загрузить общий проект и заменить их?')) return false;
+    if ((__localDirty || hasUnsavedLocal()) && !confirm('Есть несохранённые локальные изменения. Загрузить общий проект и заменить их?')) return false;
     return await loadWorkerProject(true, true);
   } catch (error) {
     showWorkerError('Ошибка загрузки из Worker', error);
@@ -193,14 +207,15 @@ window.setName = function () {
 window.scheduleSave = scheduleWorkerSave;
 window.applyPendingRemote = function () {
   if (!__pendingRemote) return status('Нет ожидающих обновлений');
-  if (__localDirty && !confirm('Есть твои несохранённые правки. Применить внешнее обновление поверх них?')) return;
+  if ((__localDirty || hasUnsavedLocal()) && !confirm('Есть твои несохранённые правки. Применить внешнее обновление поверх них?')) return;
   applyRemoteState(__pendingRemote, true);
   __pendingRemote = null;
 };
 
 document.addEventListener('input', () => { __lastUserInputAt = Date.now(); setTimeout(markLocalChanged, 80); }, true);
 document.addEventListener('change', () => { __lastUserInputAt = Date.now(); setTimeout(markLocalChanged, 80); }, true);
-document.addEventListener('pointerup', () => setTimeout(markLocalChanged, 120), true);
+document.addEventListener('pointerdown', () => { __lastUserInputAt = Date.now(); }, true);
+document.addEventListener('pointerup', () => { __lastUserInputAt = Date.now(); setTimeout(markLocalChanged, 120); }, true);
 
 window.addEventListener('load', async () => {
   try {
@@ -208,8 +223,13 @@ window.addEventListener('load', async () => {
     await loadWorkerProject(false, false);
     status('Онлайн через Cloudflare Worker');
     clearInterval(__pollTimer);
-    __pollTimer = setInterval(() => loadWorkerProject(false, false).catch(() => {}), 2500);
-    setInterval(markLocalChanged, 900);
+    __pollTimer = setInterval(() => {
+      // Do not even ask remote while the local state differs or the user is editing.
+      // This avoids map/editor rollback while someone is typing or moving nodes.
+      if (__localDirty || hasUnsavedLocal() || isUserEditingNow()) return;
+      loadWorkerProject(false, false).catch(() => {});
+    }, 8000);
+    setInterval(markLocalChanged, 1600);
   } catch (e) {
     status('Worker не подключился: ' + e.message);
   }
