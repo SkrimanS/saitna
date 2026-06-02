@@ -785,8 +785,8 @@
     {
       "id": "p2_marra_lantern_rule",
       "type": "truth",
-      "x": 3870,
-      "y": 612,
+      "x": 3876.060606060606,
+      "y": 375.6363636363636,
       "title": "Знак не равен имени",
       "act": "Часть II. Глава 7",
       "npc": "Марра",
@@ -3131,7 +3131,7 @@
       }
     ],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T21:15:10.588Z",
+    "lastSavedAt": "2026-06-02T21:15:37.029Z",
     "sources": {
       "bezdna_pamyat_glubin_tom1_v10": {
         "title": "Бездна: Память Глубин — Том I v10",
@@ -3155,5 +3155,5 @@
       }
     }
   },
-  "selectedId": "q_final"
+  "selectedId": "p2_marra_lantern_rule"
 }
