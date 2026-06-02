@@ -23,8 +23,8 @@
     {
       "id": "q_arrival",
       "type": "quest",
-      "x": -173.52941176470586,
-      "y": 176.23529411764696,
+      "x": -247.33893557422965,
+      "y": 288.1400560224089,
       "title": "Последняя ступень",
       "act": "Часть I",
       "npc": "Страж ворот",
@@ -1074,7 +1074,7 @@
   "meta": {
     "history": [],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T18:21:06.811Z"
+    "lastSavedAt": "2026-06-02T18:23:02.346Z"
   },
-  "selectedId": "q_prologue"
+  "selectedId": "q_arrival"
 }
