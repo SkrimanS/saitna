@@ -1,0 +1,30 @@
+/* Convenience feature layer: backups/history/view/export/search/status/favorites. */
+.feature-stack .btn { width: 100%; text-align: center; }
+.feature-node-tools select.field { margin-top: 4px; min-width: 155px; }
+.feature-badges { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px; }
+.fav-node { box-shadow: 0 0 0 2px rgba(255, 213, 112, .18), 0 13px 28px rgba(0,0,0,.45) !important; }
+.favchip { color: #ffe08a; border-color: rgba(255, 213, 112, .55); background: rgba(255, 213, 112, .15); }
+.status { font-size: 10px; }
+.status-draft { border-color: rgba(214,163,74,.38) !important; }
+.status-review { border-color: rgba(191,101,85,.72) !important; }
+.status-ready { border-color: rgba(139,182,109,.72) !important; }
+.status-ingame { border-color: rgba(117,175,212,.78) !important; }
+.status-cut { opacity: .65; filter: grayscale(.35); }
+.chip.status-draft { color: #e6c68b; }
+.chip.status-review { color: #f2c0b7; border-color: rgba(191,101,85,.55); background: rgba(191,101,85,.13); }
+.chip.status-ready { color: #cce8b9; border-color: rgba(139,182,109,.55); background: rgba(139,182,109,.13); }
+.chip.status-ingame { color: #b9def3; border-color: rgba(117,175,212,.55); background: rgba(117,175,212,.13); }
+.chip.status-cut { color: #aaa; border-color: rgba(180,180,180,.35); background: rgba(180,180,180,.09); }
+#featureModal { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; z-index: 200; background: rgba(0,0,0,.64); padding: 18px; }
+#featureModal.open { display: flex; }
+.feature-modal-box { width: min(860px, 96vw); max-height: 86vh; overflow: auto; border: 1px solid rgba(214,163,74,.5); border-radius: 20px; background: #101620; padding: 16px; box-shadow: 0 28px 90px rgba(0,0,0,.75); }
+body.view-only .node { cursor: grab !important; }
+body.view-only #toolEdit,
+body.view-only .mobileBar button[onclick*="edit"] { opacity: .4; pointer-events: none; }
+body.view-only .green,
+body.view-only .red { filter: grayscale(.45); }
+body.view-only #status::after { content: ' · режим просмотра'; color: #d6a34a; }
+@media(max-width:900px){
+  #featureTools .btn { min-height: 42px; }
+  .feature-modal-box { max-height: 82dvh; padding-bottom: calc(22px + env(safe-area-inset-bottom, 0px)); }
+}
