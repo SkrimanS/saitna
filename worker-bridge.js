@@ -3,6 +3,15 @@
 window.BEZDNA_WORKER_URL = window.BEZDNA_WORKER_URL || 'https://saitna.xomein0165.workers.dev';
 window.BEZDNA_PROJECT = new URLSearchParams(location.search).get('project') || 'bezdna-main';
 
+let __syncingFromWorker = false;
+let __localDirty = false;
+let __lastLocalJson = '';
+let __lastRemoteJson = '';
+let __pendingRemote = null;
+let __autoSaveTimer = null;
+let __pollTimer = null;
+let __lastUserInputAt = 0;
+
 function workerKey() {
   const params = new URLSearchParams(location.search);
   return params.get('key') || localStorage.getItem('bezdna_room_key') || '';
@@ -33,22 +42,85 @@ function showWorkerError(prefix, error) {
   alert(message);
 }
 
-async function loadWorkerProject(showMessage = true) {
+function stateJson() {
+  try {
+    state.selectedId = selected;
+    return JSON.stringify(state);
+  } catch (_) {
+    return localStorage.getItem('bezdna_state_v3') || '';
+  }
+}
+
+function isUserEditingNow() {
+  const a = document.activeElement;
+  const inField = a && a.matches && a.matches('input, textarea, select');
+  return Boolean(inField) || (Date.now() - __lastUserInputAt < 1400);
+}
+
+function markLocalChanged() {
+  if (__syncingFromWorker) return;
+  const current = stateJson();
+  if (!current || current === __lastLocalJson) return;
+  __lastLocalJson = current;
+  __localDirty = true;
+  scheduleWorkerSave();
+}
+
+function scheduleWorkerSave() {
+  clearTimeout(__autoSaveTimer);
+  __autoSaveTimer = setTimeout(() => {
+    saveWorkerProject(false).catch(e => {
+      if (typeof status === 'function') status('Ошибка автосохранения: ' + e.message);
+      console.error(e);
+    });
+  }, 1600);
+}
+
+function applyRemoteState(remoteState, showMessage = false) {
+  __syncingFromWorker = true;
+  try {
+    state = remoteState;
+    selected = state.selectedId || selected || state.nodes?.[0]?.id;
+    __lastRemoteJson = JSON.stringify(remoteState);
+    __lastLocalJson = __lastRemoteJson;
+    __localDirty = false;
+    localStorage.setItem('bezdna_state_v3', __lastRemoteJson);
+    render();
+    if (showMessage && typeof status === 'function') status('Загружено из общего GitHub-хранилища');
+  } finally {
+    __syncingFromWorker = false;
+  }
+}
+
+async function loadWorkerProject(showMessage = true, force = false) {
   const project = window.BEZDNA_PROJECT;
   const data = await workerRequest('/api/project?project=' + encodeURIComponent(project));
   if (data.exists && data.state) {
-    state = data.state;
-    selected = state.selectedId || selected || state.nodes?.[0]?.id;
-    localStorage.setItem('bezdna_state_v3', JSON.stringify(state));
-    render();
-    if (showMessage) status('Загружено из общего GitHub-хранилища');
+    const remoteJson = JSON.stringify(data.state);
+    const currentJson = stateJson();
+
+    if (!force && remoteJson === currentJson) {
+      __lastRemoteJson = remoteJson;
+      __lastLocalJson = currentJson;
+      __localDirty = false;
+      if (showMessage) status('Уже актуально');
+      return true;
+    }
+
+    if (!force && (__localDirty || isUserEditingNow())) {
+      __pendingRemote = data.state;
+      if (showMessage) status('Есть обновление от другого, но твои правки не перезаписаны');
+      return true;
+    }
+
+    applyRemoteState(data.state, showMessage);
     return true;
   }
   if (showMessage) status('Общий проект ещё пустой. Нажми Сохранить всем.');
   return false;
 }
 
-async function saveWorkerProject() {
+async function saveWorkerProject(showMessage = true) {
   state.selectedId = selected;
   const payload = {
     project: window.BEZDNA_PROJECT,
@@ -61,7 +133,10 @@ async function saveWorkerProject() {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload)
   });
-  status('Сохранено в общий проект');
+  __localDirty = false;
+  __lastLocalJson = stateJson();
+  __lastRemoteJson = __lastLocalJson;
+  if (showMessage) status('Сохранено в общий проект');
 }
 
 async function uploadWorkerFile(file) {
@@ -89,11 +164,16 @@ async function uploadWorkerFile(file) {
 }
 
 window.loadGitHub = async function () {
-  try { return await loadWorkerProject(true); }
-  catch (error) { showWorkerError('Ошибка загрузки из Worker', error); return false; }
+  try {
+    if (__localDirty && !confirm('Есть несохранённые локальные изменения. Загрузить общий проект и заменить их?')) return false;
+    return await loadWorkerProject(true, true);
+  } catch (error) {
+    showWorkerError('Ошибка загрузки из Worker', error);
+    return false;
+  }
 };
 window.saveGitHub = async function () {
-  try { return await saveWorkerProject(); }
+  try { return await saveWorkerProject(true); }
   catch (error) { showWorkerError('Ошибка сохранения в Worker', error); return false; }
 };
 window.uploadFile = async function (file) {
@@ -110,16 +190,26 @@ window.setName = function () {
   const name = prompt('Имя для совместной работы', old) || old;
   if (name) localStorage.setItem('bezdna_user_name', name);
 };
-window.scheduleSave = function () {
-  clearTimeout(window.__workerSaveTimer);
-  window.__workerSaveTimer = setTimeout(() => saveWorkerProject().catch(e => status('Ошибка сохранения: ' + e.message)), 1200);
+window.scheduleSave = scheduleWorkerSave;
+window.applyPendingRemote = function () {
+  if (!__pendingRemote) return status('Нет ожидающих обновлений');
+  if (__localDirty && !confirm('Есть твои несохранённые правки. Применить внешнее обновление поверх них?')) return;
+  applyRemoteState(__pendingRemote, true);
+  __pendingRemote = null;
 };
+
+document.addEventListener('input', () => { __lastUserInputAt = Date.now(); setTimeout(markLocalChanged, 80); }, true);
+document.addEventListener('change', () => { __lastUserInputAt = Date.now(); setTimeout(markLocalChanged, 80); }, true);
+document.addEventListener('pointerup', () => setTimeout(markLocalChanged, 120), true);
 
 window.addEventListener('load', async () => {
   try {
-    await loadWorkerProject(false);
+    __lastLocalJson = stateJson();
+    await loadWorkerProject(false, false);
     status('Онлайн через Cloudflare Worker');
-    setInterval(() => loadWorkerProject(false).catch(() => {}), 7000);
+    clearInterval(__pollTimer);
+    __pollTimer = setInterval(() => loadWorkerProject(false, false).catch(() => {}), 2500);
+    setInterval(markLocalChanged, 900);
   } catch (e) {
     status('Worker не подключился: ' + e.message);
   }
