@@ -59,13 +59,11 @@ function isUserEditingNow() {
 }
 
 function hasUnsavedLocal(currentJson = stateJson()) {
-  // The important fix: even if __localDirty was not set yet, compare current state
-  // with the last state loaded/saved from the Worker. If different, never auto-apply remote.
   return Boolean(currentJson && __lastRemoteJson && currentJson !== __lastRemoteJson);
 }
 
 function markLocalChanged() {
-  if (__syncingFromWorker) return;
+  if (__syncingFromWorker || window.BEZDNA_LIVE_ACTIVE) return;
   const current = stateJson();
   if (!current) return;
   __lastLocalSnapshotAt = Date.now();
@@ -76,8 +74,10 @@ function markLocalChanged() {
 }
 
 function scheduleWorkerSave() {
+  if (window.BEZDNA_LIVE_ACTIVE) return;
   clearTimeout(__autoSaveTimer);
   __autoSaveTimer = setTimeout(() => {
+    if (window.BEZDNA_LIVE_ACTIVE) return;
     saveWorkerProject(false).catch(e => {
       if (typeof status === 'function') status('Ошибка автосохранения: ' + e.message);
       console.error(e);
@@ -102,6 +102,7 @@ function applyRemoteState(remoteState, showMessage = false) {
 }
 
 async function loadWorkerProject(showMessage = true, force = false) {
+  if (window.BEZDNA_LIVE_ACTIVE && !force) return true;
   const project = window.BEZDNA_PROJECT;
   const data = await workerRequest('/api/project?project=' + encodeURIComponent(project));
   if (data.exists && data.state) {
@@ -118,7 +119,6 @@ async function loadWorkerProject(showMessage = true, force = false) {
       return true;
     }
 
-    // Never overwrite local changes automatically. Queue remote update instead.
     if (!force && (localUnsaved || __localDirty || isUserEditingNow())) {
       __localDirty = localUnsaved || __localDirty;
       __pendingRemote = data.state;
@@ -224,8 +224,7 @@ window.addEventListener('load', async () => {
     status('Онлайн через Cloudflare Worker');
     clearInterval(__pollTimer);
     __pollTimer = setInterval(() => {
-      // Do not even ask remote while the local state differs or the user is editing.
-      // This avoids map/editor rollback while someone is typing or moving nodes.
+      if (window.BEZDNA_LIVE_ACTIVE) return;
       if (__localDirty || hasUnsavedLocal() || isUserEditingNow()) return;
       loadWorkerProject(false, false).catch(() => {});
     }, 8000);
