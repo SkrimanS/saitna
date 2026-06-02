@@ -1,0 +1,7 @@
+name = "bezdna-editor-api"
+main = "cloudflare-worker.js"
+compatibility_date = "2025-12-01"
+
+[vars]
+REPO = "SkrimanS/saitna"
+BRANCH = "main"
