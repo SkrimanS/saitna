@@ -252,8 +252,8 @@
     {
       "id": "q_archive",
       "type": "truth",
-      "x": 2130,
-      "y": 635,
+      "x": 2641.904761904762,
+      "y": 680.2380952380952,
       "title": "Книга недоставленных",
       "act": "Часть IV",
       "npc": "Тара Лойн",
@@ -1074,7 +1074,7 @@
   "meta": {
     "history": [],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T18:23:06.229Z"
+    "lastSavedAt": "2026-06-02T18:23:49.154Z"
   },
-  "selectedId": "q_arrival"
+  "selectedId": "q_archive"
 }
