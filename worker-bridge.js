@@ -26,6 +26,13 @@ async function workerRequest(path, options = {}) {
   return data;
 }
 
+function showWorkerError(prefix, error) {
+  const message = prefix + ': ' + (error && error.message ? error.message : String(error));
+  console.error(message, error);
+  if (typeof status === 'function') status(message);
+  alert(message);
+}
+
 async function loadWorkerProject(showMessage = true) {
   const project = window.BEZDNA_PROJECT;
   const data = await workerRequest('/api/project?project=' + encodeURIComponent(project));
@@ -37,7 +44,7 @@ async function loadWorkerProject(showMessage = true) {
     if (showMessage) status('Загружено из общего GitHub-хранилища');
     return true;
   }
-  if (showMessage) status('Общий проект ещё пустой. Нажми Сохранить.');
+  if (showMessage) status('Общий проект ещё пустой. Нажми Сохранить всем.');
   return false;
 }
 
@@ -81,10 +88,18 @@ async function uploadWorkerFile(file) {
   await saveWorkerProject();
 }
 
-// Override old direct-GitHub browser functions from app.js.
-window.loadGitHub = async function () { return loadWorkerProject(true); };
-window.saveGitHub = async function () { return saveWorkerProject(); };
-window.uploadFile = async function (file) { return uploadWorkerFile(file); };
+window.loadGitHub = async function () {
+  try { return await loadWorkerProject(true); }
+  catch (error) { showWorkerError('Ошибка загрузки из Worker', error); return false; }
+};
+window.saveGitHub = async function () {
+  try { return await saveWorkerProject(); }
+  catch (error) { showWorkerError('Ошибка сохранения в Worker', error); return false; }
+};
+window.uploadFile = async function (file) {
+  try { return await uploadWorkerFile(file); }
+  catch (error) { showWorkerError('Ошибка загрузки файла', error); return false; }
+};
 window.shareGitHub = function () {
   const url = location.origin + location.pathname + '?project=' + encodeURIComponent(window.BEZDNA_PROJECT);
   navigator.clipboard?.writeText(url);
@@ -102,19 +117,6 @@ window.scheduleSave = function () {
 
 window.addEventListener('load', async () => {
   try {
-    const ghBox = document.getElementById('ghRepo')?.closest('.card');
-    if (ghBox) {
-      ghBox.innerHTML = `
-        <b>Общий онлайн-проект</b>
-        <div id="status" class="tiny">Подключение к Cloudflare Worker...</div>
-        <p class="tiny">Хранилище: GitHub через Cloudflare Worker. Токены людям не нужны.</p>
-        <div class="row">
-          <button class="btn green" onclick="saveGitHub()">Сохранить всем</button>
-          <button class="btn" onclick="loadGitHub()">Обновить</button>
-          <button class="btn" onclick="shareGitHub()">Ссылка</button>
-          <button class="btn" onclick="setName()">Имя</button>
-        </div>`;
-    }
     await loadWorkerProject(false);
     status('Онлайн через Cloudflare Worker');
     setInterval(() => loadWorkerProject(false).catch(() => {}), 7000);
