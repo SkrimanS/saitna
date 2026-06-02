@@ -3861,6 +3861,12 @@
   "meta": {
     "history": [
       {
+        "time": "2026-06-02T20:31:00.010Z",
+        "user": "Yta",
+        "action": "Импортирована ветка PDF v10",
+        "details": "Добавлено узлов: 0, связей: 0"
+      },
+      {
         "time": "2026-06-02T20:30:51.822Z",
         "user": "Yta",
         "action": "Импортирована ветка PDF v10",
@@ -3874,13 +3880,13 @@
       }
     ],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T20:30:54.201Z",
+    "lastSavedAt": "2026-06-02T20:31:02.304Z",
     "sources": {
       "bezdna_pamyat_glubin_tom1_v10": {
         "title": "Бездна: Память Глубин — Том I v10",
         "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
         "chapters": 96,
-        "importedAt": "2026-06-02T20:30:51.822Z"
+        "importedAt": "2026-06-02T20:31:00.010Z"
       }
     }
   },
