@@ -402,6 +402,2118 @@
         "world_return_rule"
       ],
       "favorite": false
+    },
+    {
+      "id": "pdf_v10_ch_03",
+      "type": "source",
+      "x": -280,
+      "y": 1080,
+      "title": "То, что держит человека",
+      "act": "Часть первая. Город над Ямой",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 3 из PDF v10: То, что держит человека. Часть первая. Город над Ямой.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_03_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 3
+      }
+    },
+    {
+      "id": "pdf_v10_ch_06",
+      "type": "source",
+      "x": -590,
+      "y": 1330,
+      "title": "Цена пустых рук",
+      "act": "Часть вторая. Город помнит",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 6 из PDF v10: Цена пустых рук. Часть вторая. Город помнит.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_06_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 6
+      }
+    },
+    {
+      "id": "pdf_v10_ch_07",
+      "type": "source",
+      "x": -280,
+      "y": 1330,
+      "title": "Чужой фонарь",
+      "act": "Часть вторая. Город помнит",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 7 из PDF v10: Чужой фонарь. Часть вторая. Город помнит.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_07_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 7
+      }
+    },
+    {
+      "id": "pdf_v10_ch_08",
+      "type": "source",
+      "x": 30,
+      "y": 1330,
+      "title": "Рынок слухов",
+      "act": "Часть вторая. Город помнит",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 8 из PDF v10: Рынок слухов. Часть вторая. Город помнит.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_08_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 8
+      }
+    },
+    {
+      "id": "pdf_v10_ch_09",
+      "type": "source",
+      "x": 340,
+      "y": 1330,
+      "title": "Контракт с мягкой ложью",
+      "act": "Часть вторая. Город помнит",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 9 из PDF v10: Контракт с мягкой ложью. Часть вторая. Город помнит.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_09_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 9
+      }
+    },
+    {
+      "id": "pdf_v10_ch_10",
+      "type": "source",
+      "x": 650,
+      "y": 1330,
+      "title": "Второй выход",
+      "act": "Часть вторая. Город помнит",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 10 из PDF v10: Второй выход. Часть вторая. Город помнит.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_10_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 10
+      }
+    },
+    {
+      "id": "pdf_v10_ch_12",
+      "type": "source",
+      "x": -900,
+      "y": 1580,
+      "title": "Колесо с девятью лентами",
+      "act": "Часть третья. Ниже соли",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 12 из PDF v10: Колесо с девятью лентами. Часть третья. Ниже соли.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_12_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 12
+      }
+    },
+    {
+      "id": "pdf_v10_ch_13",
+      "type": "source",
+      "x": -590,
+      "y": 1580,
+      "title": "Караван, который свернули",
+      "act": "Часть третья. Ниже соли",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 13 из PDF v10: Караван, который свернули. Часть третья. Ниже соли.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_13_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 13
+      }
+    },
+    {
+      "id": "pdf_v10_ch_14",
+      "type": "source",
+      "x": -280,
+      "y": 1580,
+      "title": "Место для живых вещей",
+      "act": "Часть третья. Ниже соли",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 14 из PDF v10: Место для живых вещей. Часть третья. Ниже соли.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_14_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 14
+      }
+    },
+    {
+      "id": "pdf_v10_ch_15",
+      "type": "source",
+      "x": 30,
+      "y": 1580,
+      "title": "Тот, кто помнил вместо себя",
+      "act": "Часть третья. Ниже соли",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 15 из PDF v10: Тот, кто помнил вместо себя. Часть третья. Ниже соли.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_15_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 15
+      }
+    },
+    {
+      "id": "pdf_v10_ch_16",
+      "type": "source",
+      "x": 340,
+      "y": 1580,
+      "title": "Быстрый подъём",
+      "act": "Часть третья. Ниже соли",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 16 из PDF v10: Быстрый подъём. Часть третья. Ниже соли.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_16_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 16
+      }
+    },
+    {
+      "id": "pdf_v10_ch_17",
+      "type": "source",
+      "x": 650,
+      "y": 1580,
+      "title": "Письмо из мокрой кожи",
+      "act": "Часть третья. Ниже соли",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 17 из PDF v10: Письмо из мокрой кожи. Часть третья. Ниже соли.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_17_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 17
+      }
+    },
+    {
+      "id": "pdf_v10_ch_18",
+      "type": "source",
+      "x": 960,
+      "y": 1580,
+      "title": "Наследница фонаря",
+      "act": "Часть третья. Ниже соли",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 18 из PDF v10: Наследница фонаря. Часть третья. Ниже соли.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_18_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 18
+      }
+    },
+    {
+      "id": "pdf_v10_ch_19",
+      "type": "source",
+      "x": 1270,
+      "y": 1580,
+      "title": "Десятая лента",
+      "act": "Часть третья. Ниже соли",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 19 из PDF v10: Десятая лента. Часть третья. Ниже соли.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_19_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 19
+      }
+    },
+    {
+      "id": "pdf_v10_ch_20",
+      "type": "source",
+      "x": -900,
+      "y": 1830,
+      "title": "До утра",
+      "act": "Часть четвёртая. Очередь",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 20 из PDF v10: До утра. Часть четвёртая. Очередь.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_20_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 20
+      }
+    },
+    {
+      "id": "pdf_v10_ch_21",
+      "type": "source",
+      "x": -590,
+      "y": 1830,
+      "title": "Закрытый зал",
+      "act": "Часть четвёртая. Очередь",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 21 из PDF v10: Закрытый зал. Часть четвёртая. Очередь.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_21_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 21
+      }
+    },
+    {
+      "id": "pdf_v10_ch_23",
+      "type": "source",
+      "x": 30,
+      "y": 1830,
+      "title": "Город, который услышал",
+      "act": "Часть четвёртая. Очередь",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 23 из PDF v10: Город, который услышал. Часть четвёртая. Очередь.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_23_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 23
+      }
+    },
+    {
+      "id": "pdf_v10_ch_24",
+      "type": "source",
+      "x": 340,
+      "y": 1830,
+      "title": "Наследница фонаря",
+      "act": "Часть четвёртая. Очередь",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 24 из PDF v10: Наследница фонаря. Часть четвёртая. Очередь.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_24_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 24
+      }
+    },
+    {
+      "id": "pdf_v10_ch_25",
+      "type": "source",
+      "x": 650,
+      "y": 1830,
+      "title": "Двенадцать мест",
+      "act": "Часть четвёртая. Очередь",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 25 из PDF v10: Двенадцать мест. Часть четвёртая. Очередь.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_25_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 25
+      }
+    },
+    {
+      "id": "pdf_v10_ch_26",
+      "type": "source",
+      "x": 960,
+      "y": 1830,
+      "title": "Ниже Соляной лестницы",
+      "act": "Часть четвёртая. Очередь",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 26 из PDF v10: Ниже Соляной лестницы. Часть четвёртая. Очередь.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_26_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 26
+      }
+    },
+    {
+      "id": "pdf_v10_ch_27",
+      "type": "source",
+      "x": 1270,
+      "y": 1830,
+      "title": "Письмо, которое нельзя было читать",
+      "act": "Часть четвёртая. Очередь",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 27 из PDF v10: Письмо, которое нельзя было читать. Часть четвёртая. Очередь.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_27_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 27
+      }
+    },
+    {
+      "id": "pdf_v10_ch_28",
+      "type": "source",
+      "x": -900,
+      "y": 2080,
+      "title": "Путь, который не ждал брата",
+      "act": "Часть пятая. Левое плечо",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 28 из PDF v10: Путь, который не ждал брата. Часть пятая. Левое плечо.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_28_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 28
+      }
+    },
+    {
+      "id": "pdf_v10_ch_29",
+      "type": "source",
+      "x": -590,
+      "y": 2080,
+      "title": "Тот, кто несёт не своё",
+      "act": "Часть пятая. Левое плечо",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 29 из PDF v10: Тот, кто несёт не своё. Часть пятая. Левое плечо.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_29_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 29
+      }
+    },
+    {
+      "id": "pdf_v10_ch_30",
+      "type": "source",
+      "x": -280,
+      "y": 2080,
+      "title": "Книга мест",
+      "act": "Часть пятая. Левое плечо",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 30 из PDF v10: Книга мест. Часть пятая. Левое плечо.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_30_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 30
+      }
+    },
+    {
+      "id": "pdf_v10_ch_31",
+      "type": "source",
+      "x": 30,
+      "y": 2080,
+      "title": "Двор двенадцати повозок",
+      "act": "Часть пятая. Левое плечо",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 31 из PDF v10: Двор двенадцати повозок. Часть пятая. Левое плечо.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_31_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 31
+      }
+    },
+    {
+      "id": "pdf_v10_ch_32",
+      "type": "source",
+      "x": 340,
+      "y": 2080,
+      "title": "Имя у левого плеча",
+      "act": "Часть пятая. Левое плечо",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 32 из PDF v10: Имя у левого плеча. Часть пятая. Левое плечо.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_32_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 32
+      }
+    },
+    {
+      "id": "pdf_v10_ch_33",
+      "type": "source",
+      "x": 650,
+      "y": 2080,
+      "title": "Сухая монета",
+      "act": "Часть пятая. Левое плечо",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 33 из PDF v10: Сухая монета. Часть пятая. Левое плечо.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_33_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 33
+      }
+    },
+    {
+      "id": "pdf_v10_ch_34",
+      "type": "source",
+      "x": 960,
+      "y": 2080,
+      "title": "Не сегодня",
+      "act": "Часть пятая. Левое плечо",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 34 из PDF v10: Не сегодня. Часть пятая. Левое плечо.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_34_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 34
+      }
+    },
+    {
+      "id": "pdf_v10_ch_35",
+      "type": "source",
+      "x": 1270,
+      "y": 2080,
+      "title": "То, что вошло с ними",
+      "act": "Часть пятая. Левое плечо",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 35 из PDF v10: То, что вошло с ними. Часть пятая. Левое плечо.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_35_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 35
+      }
+    },
+    {
+      "id": "pdf_v10_ch_36",
+      "type": "source",
+      "x": -900,
+      "y": 2330,
+      "title": "Второй в очереди",
+      "act": "Часть шестая. Право возвращения",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 36 из PDF v10: Второй в очереди. Часть шестая. Право возвращения.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_36_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 36
+      }
+    },
+    {
+      "id": "pdf_v10_ch_37",
+      "type": "source",
+      "x": -590,
+      "y": 2330,
+      "title": "Сухая монета",
+      "act": "Часть шестая. Право возвращения",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 37 из PDF v10: Сухая монета. Часть шестая. Право возвращения.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_37_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 37
+      }
+    },
+    {
+      "id": "pdf_v10_ch_38",
+      "type": "source",
+      "x": -280,
+      "y": 2330,
+      "title": "Дом без двери",
+      "act": "Часть шестая. Право возвращения",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 38 из PDF v10: Дом без двери. Часть шестая. Право возвращения.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_38_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 38
+      }
+    },
+    {
+      "id": "pdf_v10_ch_39",
+      "type": "source",
+      "x": 30,
+      "y": 2330,
+      "title": "Передача",
+      "act": "Часть шестая. Право возвращения",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 39 из PDF v10: Передача. Часть шестая. Право возвращения.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_39_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 39
+      }
+    },
+    {
+      "id": "pdf_v10_ch_41",
+      "type": "source",
+      "x": 650,
+      "y": 2330,
+      "title": "Книга вернувшихся",
+      "act": "Часть шестая. Право возвращения",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 41 из PDF v10: Книга вернувшихся. Часть шестая. Право возвращения.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_41_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 41
+      }
+    },
+    {
+      "id": "pdf_v10_ch_42",
+      "type": "source",
+      "x": 960,
+      "y": 2330,
+      "title": "Лестница должников",
+      "act": "Часть шестая. Право возвращения",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 42 из PDF v10: Лестница должников. Часть шестая. Право возвращения.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_42_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 42
+      }
+    },
+    {
+      "id": "pdf_v10_ch_43",
+      "type": "source",
+      "x": 1270,
+      "y": 2330,
+      "title": "Контора Сухих Ступеней",
+      "act": "Часть шестая. Право возвращения",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 43 из PDF v10: Контора Сухих Ступеней. Часть шестая. Право возвращения.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_43_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 43
+      }
+    },
+    {
+      "id": "pdf_v10_ch_44",
+      "type": "source",
+      "x": 1580,
+      "y": 2330,
+      "title": "Цена, разделённая на живых",
+      "act": "Часть шестая. Право возвращения",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 44 из PDF v10: Цена, разделённая на живых. Часть шестая. Право возвращения.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_44_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 44
+      }
+    },
+    {
+      "id": "pdf_v10_ch_45",
+      "type": "source",
+      "x": 1890,
+      "y": 2330,
+      "title": "Тот, кто вошёл раньше",
+      "act": "Часть шестая. Право возвращения",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 45 из PDF v10: Тот, кто вошёл раньше. Часть шестая. Право возвращения.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_45_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 45
+      }
+    },
+    {
+      "id": "pdf_v10_ch_46",
+      "type": "source",
+      "x": -900,
+      "y": 2580,
+      "title": "Фиолетовая жилка",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 46 из PDF v10: Фиолетовая жилка. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_46_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 46
+      }
+    },
+    {
+      "id": "pdf_v10_ch_47",
+      "type": "source",
+      "x": -590,
+      "y": 2580,
+      "title": "Два брата",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 47 из PDF v10: Два брата. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_47_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 47
+      }
+    },
+    {
+      "id": "pdf_v10_ch_48",
+      "type": "source",
+      "x": -280,
+      "y": 2580,
+      "title": "Суд ворот",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 48 из PDF v10: Суд ворот. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_48_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 48
+      }
+    },
+    {
+      "id": "pdf_v10_ch_49",
+      "type": "source",
+      "x": 30,
+      "y": 2580,
+      "title": "Планы, которых не было",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 49 из PDF v10: Планы, которых не было. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_49_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 49
+      }
+    },
+    {
+      "id": "pdf_v10_ch_50",
+      "type": "source",
+      "x": 340,
+      "y": 2580,
+      "title": "Лестница между камнями",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 50 из PDF v10: Лестница между камнями. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_50_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 50
+      }
+    },
+    {
+      "id": "pdf_v10_ch_52",
+      "type": "source",
+      "x": 960,
+      "y": 2580,
+      "title": "Город без лиц",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 52 из PDF v10: Город без лиц. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_52_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 52
+      }
+    },
+    {
+      "id": "pdf_v10_ch_53",
+      "type": "source",
+      "x": 1270,
+      "y": 2580,
+      "title": "Те, кто уже вошёл",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 53 из PDF v10: Те, кто уже вошёл. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_53_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 53
+      }
+    },
+    {
+      "id": "pdf_v10_ch_54",
+      "type": "source",
+      "x": 1580,
+      "y": 2580,
+      "title": "Право брата",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 54 из PDF v10: Право брата. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_54_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 54
+      }
+    },
+    {
+      "id": "pdf_v10_ch_55",
+      "type": "source",
+      "x": 1890,
+      "y": 2580,
+      "title": "Мальчик у постели",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 55 из PDF v10: Мальчик у постели. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_55_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 55
+      }
+    },
+    {
+      "id": "pdf_v10_ch_56",
+      "type": "source",
+      "x": 2200,
+      "y": 2580,
+      "title": "До захода света",
+      "act": "Часть седьмая. Признание",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 56 из PDF v10: До захода света. Часть седьмая. Признание.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_56_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 56
+      }
+    },
+    {
+      "id": "pdf_v10_ch_57",
+      "type": "source",
+      "x": -900,
+      "y": 2830,
+      "title": "После заката",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 57 из PDF v10: После заката. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_57_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 57
+      }
+    },
+    {
+      "id": "pdf_v10_ch_58",
+      "type": "source",
+      "x": -590,
+      "y": 2830,
+      "title": "Имена снаружи",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 58 из PDF v10: Имена снаружи. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_58_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 58
+      }
+    },
+    {
+      "id": "pdf_v10_ch_59",
+      "type": "source",
+      "x": -280,
+      "y": 2830,
+      "title": "Ночь отказа",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 59 из PDF v10: Ночь отказа. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_59_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 59
+      }
+    },
+    {
+      "id": "pdf_v10_ch_60",
+      "type": "source",
+      "x": 30,
+      "y": 2830,
+      "title": "Не слушай четвёртый",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 60 из PDF v10: Не слушай четвёртый. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_60_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 60
+      }
+    },
+    {
+      "id": "pdf_v10_ch_61",
+      "type": "source",
+      "x": 340,
+      "y": 2830,
+      "title": "Честная строка",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 61 из PDF v10: Честная строка. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_61_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 61
+      }
+    },
+    {
+      "id": "pdf_v10_ch_62",
+      "type": "source",
+      "x": 650,
+      "y": 2830,
+      "title": "Суд без стены",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 62 из PDF v10: Суд без стены. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_62_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 62
+      }
+    },
+    {
+      "id": "pdf_v10_ch_63",
+      "type": "source",
+      "x": 960,
+      "y": 2830,
+      "title": "Стол у ворот",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 63 из PDF v10: Стол у ворот. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_63_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 63
+      }
+    },
+    {
+      "id": "pdf_v10_ch_64",
+      "type": "source",
+      "x": 1270,
+      "y": 2830,
+      "title": "Под воротами",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 64 из PDF v10: Под воротами. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_64_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 64
+      }
+    },
+    {
+      "id": "pdf_v10_ch_65",
+      "type": "source",
+      "x": 1580,
+      "y": 2830,
+      "title": "Половина возвращения",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 65 из PDF v10: Половина возвращения. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_65_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 65
+      }
+    },
+    {
+      "id": "pdf_v10_ch_66",
+      "type": "source",
+      "x": 1890,
+      "y": 2830,
+      "title": "Слишком много первых",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 66 из PDF v10: Слишком много первых. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_66_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 66
+      }
+    },
+    {
+      "id": "pdf_v10_ch_67",
+      "type": "source",
+      "x": 2200,
+      "y": 2830,
+      "title": "Лестница сухих монет",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 67 из PDF v10: Лестница сухих монет. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_67_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 67
+      }
+    },
+    {
+      "id": "pdf_v10_ch_68",
+      "type": "source",
+      "x": 2510,
+      "y": 2830,
+      "title": "Дверь с домашним именем",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 68 из PDF v10: Дверь с домашним именем. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_68_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 68
+      }
+    },
+    {
+      "id": "pdf_v10_ch_69",
+      "type": "source",
+      "x": 2820,
+      "y": 2830,
+      "title": "Основание первое",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 69 из PDF v10: Основание первое. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_69_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 69
+      }
+    },
+    {
+      "id": "pdf_v10_ch_70",
+      "type": "source",
+      "x": 3130,
+      "y": 2830,
+      "title": "Второе основание",
+      "act": "Часть восьмая. Старые ворота",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 70 из PDF v10: Второе основание. Часть восьмая. Старые ворота.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_70_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 70
+      }
+    },
+    {
+      "id": "pdf_v10_ch_71",
+      "type": "source",
+      "x": -900,
+      "y": 3080,
+      "title": "Дорога чужих имён",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 71 из PDF v10: Дорога чужих имён. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_71_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 71
+      }
+    },
+    {
+      "id": "pdf_v10_ch_72",
+      "type": "source",
+      "x": -590,
+      "y": 3080,
+      "title": "Тот, кто откликнулся",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 72 из PDF v10: Тот, кто откликнулся. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_72_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 72
+      }
+    },
+    {
+      "id": "pdf_v10_ch_73",
+      "type": "source",
+      "x": -280,
+      "y": 3080,
+      "title": "Зал ожидающих за других",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 73 из PDF v10: Зал ожидающих за других. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_73_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 73
+      }
+    },
+    {
+      "id": "pdf_v10_ch_74",
+      "type": "source",
+      "x": 30,
+      "y": 3080,
+      "title": "Третья строка договора",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 74 из PDF v10: Третья строка договора. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_74_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 74
+      }
+    },
+    {
+      "id": "pdf_v10_ch_75",
+      "type": "source",
+      "x": 340,
+      "y": 3080,
+      "title": "Имя, которое носили по очереди",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 75 из PDF v10: Имя, которое носили по очереди. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_75_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 75
+      }
+    },
+    {
+      "id": "pdf_v10_ch_76",
+      "type": "source",
+      "x": 650,
+      "y": 3080,
+      "title": "Эдан без брата",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 76 из PDF v10: Эдан без брата. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_76_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 76
+      }
+    },
+    {
+      "id": "pdf_v10_ch_77",
+      "type": "source",
+      "x": 960,
+      "y": 3080,
+      "title": "Не вместо",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 77 из PDF v10: Не вместо. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_77_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 77
+      }
+    },
+    {
+      "id": "pdf_v10_ch_78",
+      "type": "source",
+      "x": 1270,
+      "y": 3080,
+      "title": "Человек, который слишком долго ждал",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 78 из PDF v10: Человек, который слишком долго ждал. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_78_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 78
+      }
+    },
+    {
+      "id": "pdf_v10_ch_79",
+      "type": "source",
+      "x": 1580,
+      "y": 3080,
+      "title": "Разделённое возвращение",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 79 из PDF v10: Разделённое возвращение. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_79_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 79
+      }
+    },
+    {
+      "id": "pdf_v10_ch_80",
+      "type": "source",
+      "x": 1890,
+      "y": 3080,
+      "title": "Верхняя тень",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 80 из PDF v10: Верхняя тень. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_80_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 80
+      }
+    },
+    {
+      "id": "pdf_v10_ch_81",
+      "type": "source",
+      "x": 2200,
+      "y": 3080,
+      "title": "Список тех, кто отказался",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 81 из PDF v10: Список тех, кто отказался. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_81_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 81
+      }
+    },
+    {
+      "id": "pdf_v10_ch_82",
+      "type": "source",
+      "x": 2510,
+      "y": 3080,
+      "title": "Третий в очереди",
+      "act": "Часть девятая. Чужие имена",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 82 из PDF v10: Третий в очереди. Часть девятая. Чужие имена.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_82_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 82
+      }
+    },
+    {
+      "id": "pdf_v10_ch_83",
+      "type": "source",
+      "x": -900,
+      "y": 3330,
+      "title": "Сел Варн",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 83 из PDF v10: Сел Варн. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_83_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 83
+      }
+    },
+    {
+      "id": "pdf_v10_ch_84",
+      "type": "source",
+      "x": -590,
+      "y": 3330,
+      "title": "Дом, который не продали",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 84 из PDF v10: Дом, который не продали. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_84_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 84
+      }
+    },
+    {
+      "id": "pdf_v10_ch_85",
+      "type": "source",
+      "x": -280,
+      "y": 3330,
+      "title": "Рубаха с кривой буквой",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 85 из PDF v10: Рубаха с кривой буквой. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_85_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 85
+      }
+    },
+    {
+      "id": "pdf_v10_ch_86",
+      "type": "source",
+      "x": 30,
+      "y": 3330,
+      "title": "Мира Варн",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 86 из PDF v10: Мира Варн. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_86_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 86
+      }
+    },
+    {
+      "id": "pdf_v10_ch_87",
+      "type": "source",
+      "x": 340,
+      "y": 3330,
+      "title": "Стена северного моста",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 87 из PDF v10: Стена северного моста. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_87_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 87
+      }
+    },
+    {
+      "id": "pdf_v10_ch_88",
+      "type": "source",
+      "x": 650,
+      "y": 3330,
+      "title": "Старый Тарн",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 88 из PDF v10: Старый Тарн. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_88_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 88
+      }
+    },
+    {
+      "id": "pdf_v10_ch_89",
+      "type": "source",
+      "x": 960,
+      "y": 3330,
+      "title": "Письмо, которое ждало адресата",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 89 из PDF v10: Письмо, которое ждало адресата. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_89_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 89
+      }
+    },
+    {
+      "id": "pdf_v10_ch_90",
+      "type": "source",
+      "x": 1270,
+      "y": 3330,
+      "title": "Под нижней кладкой",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 90 из PDF v10: Под нижней кладкой. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_90_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 90
+      }
+    },
+    {
+      "id": "pdf_v10_ch_91",
+      "type": "source",
+      "x": 1580,
+      "y": 3330,
+      "title": "Где считают гвозди",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 91 из PDF v10: Где считают гвозди. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_91_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 91
+      }
+    },
+    {
+      "id": "pdf_v10_ch_92",
+      "type": "source",
+      "x": 1890,
+      "y": 3330,
+      "title": "Список непринятых",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 92 из PDF v10: Список непринятых. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_92_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 92
+      }
+    },
+    {
+      "id": "pdf_v10_ch_93",
+      "type": "source",
+      "x": 2200,
+      "y": 3330,
+      "title": "Не капитану",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 93 из PDF v10: Не капитану. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_93_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 93
+      }
+    },
+    {
+      "id": "pdf_v10_ch_94",
+      "type": "source",
+      "x": 2510,
+      "y": 3330,
+      "title": "Брат, который боялся",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 94 из PDF v10: Брат, который боялся. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_94_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 94
+      }
+    },
+    {
+      "id": "pdf_v10_ch_95",
+      "type": "source",
+      "x": 2820,
+      "y": 3330,
+      "title": "Чужой караул",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 95 из PDF v10: Чужой караул. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_95_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 95
+      }
+    },
+    {
+      "id": "pdf_v10_ch_96",
+      "type": "source",
+      "x": 3130,
+      "y": 3330,
+      "title": "Северный мост открывается вниз",
+      "act": "Часть десятая. Письмо в стене",
+      "npc": "",
+      "loc": "PDF v10",
+      "main": false,
+      "summary": "Глава 96 из PDF v10: Северный мост открывается вниз. Часть десятая. Письмо в стене.",
+      "obj": [
+        "Сверить события главы с игровой схемой"
+      ],
+      "need": [],
+      "set": [
+        "pdf_v10_ch_96_noted"
+      ],
+      "source": {
+        "pack": "bezdna_pamyat_glubin_tom1_v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapter": 96
+      }
     }
   ],
   "links": [
@@ -530,6 +2642,664 @@
       "to": "q_salt",
       "type": "return",
       "label": "след Конторы"
+    },
+    {
+      "id": "pdf_v10_l_2",
+      "from": "q_arrival",
+      "to": "q_debt",
+      "type": "branch",
+      "label": "PDF v10: глава 2"
+    },
+    {
+      "id": "pdf_v10_l_3",
+      "from": "q_debt",
+      "to": "pdf_v10_ch_03",
+      "type": "branch",
+      "label": "PDF v10: глава 3"
+    },
+    {
+      "id": "pdf_v10_l_4",
+      "from": "pdf_v10_ch_03",
+      "to": "q_threshold",
+      "type": "branch",
+      "label": "PDF v10: глава 4"
+    },
+    {
+      "id": "pdf_v10_l_6",
+      "from": "q_return",
+      "to": "pdf_v10_ch_06",
+      "type": "branch",
+      "label": "PDF v10: глава 6"
+    },
+    {
+      "id": "pdf_v10_l_7",
+      "from": "pdf_v10_ch_06",
+      "to": "pdf_v10_ch_07",
+      "type": "branch",
+      "label": "PDF v10: глава 7"
+    },
+    {
+      "id": "pdf_v10_l_8",
+      "from": "pdf_v10_ch_07",
+      "to": "pdf_v10_ch_08",
+      "type": "branch",
+      "label": "PDF v10: глава 8"
+    },
+    {
+      "id": "pdf_v10_l_9",
+      "from": "pdf_v10_ch_08",
+      "to": "pdf_v10_ch_09",
+      "type": "branch",
+      "label": "PDF v10: глава 9"
+    },
+    {
+      "id": "pdf_v10_l_10",
+      "from": "pdf_v10_ch_09",
+      "to": "pdf_v10_ch_10",
+      "type": "branch",
+      "label": "PDF v10: глава 10"
+    },
+    {
+      "id": "pdf_v10_l_11",
+      "from": "pdf_v10_ch_10",
+      "to": "q_salt",
+      "type": "branch",
+      "label": "PDF v10: глава 11"
+    },
+    {
+      "id": "pdf_v10_l_12",
+      "from": "q_salt",
+      "to": "pdf_v10_ch_12",
+      "type": "branch",
+      "label": "PDF v10: глава 12"
+    },
+    {
+      "id": "pdf_v10_l_13",
+      "from": "pdf_v10_ch_12",
+      "to": "pdf_v10_ch_13",
+      "type": "branch",
+      "label": "PDF v10: глава 13"
+    },
+    {
+      "id": "pdf_v10_l_14",
+      "from": "pdf_v10_ch_13",
+      "to": "pdf_v10_ch_14",
+      "type": "branch",
+      "label": "PDF v10: глава 14"
+    },
+    {
+      "id": "pdf_v10_l_15",
+      "from": "pdf_v10_ch_14",
+      "to": "pdf_v10_ch_15",
+      "type": "branch",
+      "label": "PDF v10: глава 15"
+    },
+    {
+      "id": "pdf_v10_l_16",
+      "from": "pdf_v10_ch_15",
+      "to": "pdf_v10_ch_16",
+      "type": "branch",
+      "label": "PDF v10: глава 16"
+    },
+    {
+      "id": "pdf_v10_l_17",
+      "from": "pdf_v10_ch_16",
+      "to": "pdf_v10_ch_17",
+      "type": "branch",
+      "label": "PDF v10: глава 17"
+    },
+    {
+      "id": "pdf_v10_l_18",
+      "from": "pdf_v10_ch_17",
+      "to": "pdf_v10_ch_18",
+      "type": "branch",
+      "label": "PDF v10: глава 18"
+    },
+    {
+      "id": "pdf_v10_l_19",
+      "from": "pdf_v10_ch_18",
+      "to": "pdf_v10_ch_19",
+      "type": "branch",
+      "label": "PDF v10: глава 19"
+    },
+    {
+      "id": "pdf_v10_l_20",
+      "from": "pdf_v10_ch_19",
+      "to": "pdf_v10_ch_20",
+      "type": "branch",
+      "label": "PDF v10: глава 20"
+    },
+    {
+      "id": "pdf_v10_l_21",
+      "from": "pdf_v10_ch_20",
+      "to": "pdf_v10_ch_21",
+      "type": "branch",
+      "label": "PDF v10: глава 21"
+    },
+    {
+      "id": "pdf_v10_l_22",
+      "from": "pdf_v10_ch_21",
+      "to": "q_archive",
+      "type": "branch",
+      "label": "PDF v10: глава 22"
+    },
+    {
+      "id": "pdf_v10_l_23",
+      "from": "q_archive",
+      "to": "pdf_v10_ch_23",
+      "type": "branch",
+      "label": "PDF v10: глава 23"
+    },
+    {
+      "id": "pdf_v10_l_24",
+      "from": "pdf_v10_ch_23",
+      "to": "pdf_v10_ch_24",
+      "type": "branch",
+      "label": "PDF v10: глава 24"
+    },
+    {
+      "id": "pdf_v10_l_25",
+      "from": "pdf_v10_ch_24",
+      "to": "pdf_v10_ch_25",
+      "type": "branch",
+      "label": "PDF v10: глава 25"
+    },
+    {
+      "id": "pdf_v10_l_26",
+      "from": "pdf_v10_ch_25",
+      "to": "pdf_v10_ch_26",
+      "type": "branch",
+      "label": "PDF v10: глава 26"
+    },
+    {
+      "id": "pdf_v10_l_27",
+      "from": "pdf_v10_ch_26",
+      "to": "pdf_v10_ch_27",
+      "type": "branch",
+      "label": "PDF v10: глава 27"
+    },
+    {
+      "id": "pdf_v10_l_28",
+      "from": "pdf_v10_ch_27",
+      "to": "pdf_v10_ch_28",
+      "type": "branch",
+      "label": "PDF v10: глава 28"
+    },
+    {
+      "id": "pdf_v10_l_29",
+      "from": "pdf_v10_ch_28",
+      "to": "pdf_v10_ch_29",
+      "type": "branch",
+      "label": "PDF v10: глава 29"
+    },
+    {
+      "id": "pdf_v10_l_30",
+      "from": "pdf_v10_ch_29",
+      "to": "pdf_v10_ch_30",
+      "type": "branch",
+      "label": "PDF v10: глава 30"
+    },
+    {
+      "id": "pdf_v10_l_31",
+      "from": "pdf_v10_ch_30",
+      "to": "pdf_v10_ch_31",
+      "type": "branch",
+      "label": "PDF v10: глава 31"
+    },
+    {
+      "id": "pdf_v10_l_32",
+      "from": "pdf_v10_ch_31",
+      "to": "pdf_v10_ch_32",
+      "type": "branch",
+      "label": "PDF v10: глава 32"
+    },
+    {
+      "id": "pdf_v10_l_33",
+      "from": "pdf_v10_ch_32",
+      "to": "pdf_v10_ch_33",
+      "type": "branch",
+      "label": "PDF v10: глава 33"
+    },
+    {
+      "id": "pdf_v10_l_34",
+      "from": "pdf_v10_ch_33",
+      "to": "pdf_v10_ch_34",
+      "type": "branch",
+      "label": "PDF v10: глава 34"
+    },
+    {
+      "id": "pdf_v10_l_35",
+      "from": "pdf_v10_ch_34",
+      "to": "pdf_v10_ch_35",
+      "type": "branch",
+      "label": "PDF v10: глава 35"
+    },
+    {
+      "id": "pdf_v10_l_36",
+      "from": "pdf_v10_ch_35",
+      "to": "pdf_v10_ch_36",
+      "type": "branch",
+      "label": "PDF v10: глава 36"
+    },
+    {
+      "id": "pdf_v10_l_37",
+      "from": "pdf_v10_ch_36",
+      "to": "pdf_v10_ch_37",
+      "type": "branch",
+      "label": "PDF v10: глава 37"
+    },
+    {
+      "id": "pdf_v10_l_38",
+      "from": "pdf_v10_ch_37",
+      "to": "pdf_v10_ch_38",
+      "type": "branch",
+      "label": "PDF v10: глава 38"
+    },
+    {
+      "id": "pdf_v10_l_39",
+      "from": "pdf_v10_ch_38",
+      "to": "pdf_v10_ch_39",
+      "type": "branch",
+      "label": "PDF v10: глава 39"
+    },
+    {
+      "id": "pdf_v10_l_40",
+      "from": "pdf_v10_ch_39",
+      "to": "q_edan",
+      "type": "branch",
+      "label": "PDF v10: глава 40"
+    },
+    {
+      "id": "pdf_v10_l_41",
+      "from": "q_edan",
+      "to": "pdf_v10_ch_41",
+      "type": "branch",
+      "label": "PDF v10: глава 41"
+    },
+    {
+      "id": "pdf_v10_l_42",
+      "from": "pdf_v10_ch_41",
+      "to": "pdf_v10_ch_42",
+      "type": "branch",
+      "label": "PDF v10: глава 42"
+    },
+    {
+      "id": "pdf_v10_l_43",
+      "from": "pdf_v10_ch_42",
+      "to": "pdf_v10_ch_43",
+      "type": "branch",
+      "label": "PDF v10: глава 43"
+    },
+    {
+      "id": "pdf_v10_l_44",
+      "from": "pdf_v10_ch_43",
+      "to": "pdf_v10_ch_44",
+      "type": "branch",
+      "label": "PDF v10: глава 44"
+    },
+    {
+      "id": "pdf_v10_l_45",
+      "from": "pdf_v10_ch_44",
+      "to": "pdf_v10_ch_45",
+      "type": "branch",
+      "label": "PDF v10: глава 45"
+    },
+    {
+      "id": "pdf_v10_l_46",
+      "from": "pdf_v10_ch_45",
+      "to": "pdf_v10_ch_46",
+      "type": "branch",
+      "label": "PDF v10: глава 46"
+    },
+    {
+      "id": "pdf_v10_l_47",
+      "from": "pdf_v10_ch_46",
+      "to": "pdf_v10_ch_47",
+      "type": "branch",
+      "label": "PDF v10: глава 47"
+    },
+    {
+      "id": "pdf_v10_l_48",
+      "from": "pdf_v10_ch_47",
+      "to": "pdf_v10_ch_48",
+      "type": "branch",
+      "label": "PDF v10: глава 48"
+    },
+    {
+      "id": "pdf_v10_l_49",
+      "from": "pdf_v10_ch_48",
+      "to": "pdf_v10_ch_49",
+      "type": "branch",
+      "label": "PDF v10: глава 49"
+    },
+    {
+      "id": "pdf_v10_l_50",
+      "from": "pdf_v10_ch_49",
+      "to": "pdf_v10_ch_50",
+      "type": "branch",
+      "label": "PDF v10: глава 50"
+    },
+    {
+      "id": "pdf_v10_l_51",
+      "from": "pdf_v10_ch_50",
+      "to": "q_dry_chamber",
+      "type": "branch",
+      "label": "PDF v10: глава 51"
+    },
+    {
+      "id": "pdf_v10_l_52",
+      "from": "q_dry_chamber",
+      "to": "pdf_v10_ch_52",
+      "type": "branch",
+      "label": "PDF v10: глава 52"
+    },
+    {
+      "id": "pdf_v10_l_53",
+      "from": "pdf_v10_ch_52",
+      "to": "pdf_v10_ch_53",
+      "type": "branch",
+      "label": "PDF v10: глава 53"
+    },
+    {
+      "id": "pdf_v10_l_54",
+      "from": "pdf_v10_ch_53",
+      "to": "pdf_v10_ch_54",
+      "type": "branch",
+      "label": "PDF v10: глава 54"
+    },
+    {
+      "id": "pdf_v10_l_55",
+      "from": "pdf_v10_ch_54",
+      "to": "pdf_v10_ch_55",
+      "type": "branch",
+      "label": "PDF v10: глава 55"
+    },
+    {
+      "id": "pdf_v10_l_56",
+      "from": "pdf_v10_ch_55",
+      "to": "pdf_v10_ch_56",
+      "type": "branch",
+      "label": "PDF v10: глава 56"
+    },
+    {
+      "id": "pdf_v10_l_57",
+      "from": "pdf_v10_ch_56",
+      "to": "pdf_v10_ch_57",
+      "type": "branch",
+      "label": "PDF v10: глава 57"
+    },
+    {
+      "id": "pdf_v10_l_58",
+      "from": "pdf_v10_ch_57",
+      "to": "pdf_v10_ch_58",
+      "type": "branch",
+      "label": "PDF v10: глава 58"
+    },
+    {
+      "id": "pdf_v10_l_59",
+      "from": "pdf_v10_ch_58",
+      "to": "pdf_v10_ch_59",
+      "type": "branch",
+      "label": "PDF v10: глава 59"
+    },
+    {
+      "id": "pdf_v10_l_60",
+      "from": "pdf_v10_ch_59",
+      "to": "pdf_v10_ch_60",
+      "type": "branch",
+      "label": "PDF v10: глава 60"
+    },
+    {
+      "id": "pdf_v10_l_61",
+      "from": "pdf_v10_ch_60",
+      "to": "pdf_v10_ch_61",
+      "type": "branch",
+      "label": "PDF v10: глава 61"
+    },
+    {
+      "id": "pdf_v10_l_62",
+      "from": "pdf_v10_ch_61",
+      "to": "pdf_v10_ch_62",
+      "type": "branch",
+      "label": "PDF v10: глава 62"
+    },
+    {
+      "id": "pdf_v10_l_63",
+      "from": "pdf_v10_ch_62",
+      "to": "pdf_v10_ch_63",
+      "type": "branch",
+      "label": "PDF v10: глава 63"
+    },
+    {
+      "id": "pdf_v10_l_64",
+      "from": "pdf_v10_ch_63",
+      "to": "pdf_v10_ch_64",
+      "type": "branch",
+      "label": "PDF v10: глава 64"
+    },
+    {
+      "id": "pdf_v10_l_65",
+      "from": "pdf_v10_ch_64",
+      "to": "pdf_v10_ch_65",
+      "type": "branch",
+      "label": "PDF v10: глава 65"
+    },
+    {
+      "id": "pdf_v10_l_66",
+      "from": "pdf_v10_ch_65",
+      "to": "pdf_v10_ch_66",
+      "type": "branch",
+      "label": "PDF v10: глава 66"
+    },
+    {
+      "id": "pdf_v10_l_67",
+      "from": "pdf_v10_ch_66",
+      "to": "pdf_v10_ch_67",
+      "type": "branch",
+      "label": "PDF v10: глава 67"
+    },
+    {
+      "id": "pdf_v10_l_68",
+      "from": "pdf_v10_ch_67",
+      "to": "pdf_v10_ch_68",
+      "type": "branch",
+      "label": "PDF v10: глава 68"
+    },
+    {
+      "id": "pdf_v10_l_69",
+      "from": "pdf_v10_ch_68",
+      "to": "pdf_v10_ch_69",
+      "type": "branch",
+      "label": "PDF v10: глава 69"
+    },
+    {
+      "id": "pdf_v10_l_70",
+      "from": "pdf_v10_ch_69",
+      "to": "pdf_v10_ch_70",
+      "type": "branch",
+      "label": "PDF v10: глава 70"
+    },
+    {
+      "id": "pdf_v10_l_71",
+      "from": "pdf_v10_ch_70",
+      "to": "pdf_v10_ch_71",
+      "type": "branch",
+      "label": "PDF v10: глава 71"
+    },
+    {
+      "id": "pdf_v10_l_72",
+      "from": "pdf_v10_ch_71",
+      "to": "pdf_v10_ch_72",
+      "type": "branch",
+      "label": "PDF v10: глава 72"
+    },
+    {
+      "id": "pdf_v10_l_73",
+      "from": "pdf_v10_ch_72",
+      "to": "pdf_v10_ch_73",
+      "type": "branch",
+      "label": "PDF v10: глава 73"
+    },
+    {
+      "id": "pdf_v10_l_74",
+      "from": "pdf_v10_ch_73",
+      "to": "pdf_v10_ch_74",
+      "type": "branch",
+      "label": "PDF v10: глава 74"
+    },
+    {
+      "id": "pdf_v10_l_75",
+      "from": "pdf_v10_ch_74",
+      "to": "pdf_v10_ch_75",
+      "type": "branch",
+      "label": "PDF v10: глава 75"
+    },
+    {
+      "id": "pdf_v10_l_76",
+      "from": "pdf_v10_ch_75",
+      "to": "pdf_v10_ch_76",
+      "type": "branch",
+      "label": "PDF v10: глава 76"
+    },
+    {
+      "id": "pdf_v10_l_77",
+      "from": "pdf_v10_ch_76",
+      "to": "pdf_v10_ch_77",
+      "type": "branch",
+      "label": "PDF v10: глава 77"
+    },
+    {
+      "id": "pdf_v10_l_78",
+      "from": "pdf_v10_ch_77",
+      "to": "pdf_v10_ch_78",
+      "type": "branch",
+      "label": "PDF v10: глава 78"
+    },
+    {
+      "id": "pdf_v10_l_79",
+      "from": "pdf_v10_ch_78",
+      "to": "pdf_v10_ch_79",
+      "type": "branch",
+      "label": "PDF v10: глава 79"
+    },
+    {
+      "id": "pdf_v10_l_80",
+      "from": "pdf_v10_ch_79",
+      "to": "pdf_v10_ch_80",
+      "type": "branch",
+      "label": "PDF v10: глава 80"
+    },
+    {
+      "id": "pdf_v10_l_81",
+      "from": "pdf_v10_ch_80",
+      "to": "pdf_v10_ch_81",
+      "type": "branch",
+      "label": "PDF v10: глава 81"
+    },
+    {
+      "id": "pdf_v10_l_82",
+      "from": "pdf_v10_ch_81",
+      "to": "pdf_v10_ch_82",
+      "type": "branch",
+      "label": "PDF v10: глава 82"
+    },
+    {
+      "id": "pdf_v10_l_83",
+      "from": "pdf_v10_ch_82",
+      "to": "pdf_v10_ch_83",
+      "type": "branch",
+      "label": "PDF v10: глава 83"
+    },
+    {
+      "id": "pdf_v10_l_84",
+      "from": "pdf_v10_ch_83",
+      "to": "pdf_v10_ch_84",
+      "type": "branch",
+      "label": "PDF v10: глава 84"
+    },
+    {
+      "id": "pdf_v10_l_85",
+      "from": "pdf_v10_ch_84",
+      "to": "pdf_v10_ch_85",
+      "type": "branch",
+      "label": "PDF v10: глава 85"
+    },
+    {
+      "id": "pdf_v10_l_86",
+      "from": "pdf_v10_ch_85",
+      "to": "pdf_v10_ch_86",
+      "type": "branch",
+      "label": "PDF v10: глава 86"
+    },
+    {
+      "id": "pdf_v10_l_87",
+      "from": "pdf_v10_ch_86",
+      "to": "pdf_v10_ch_87",
+      "type": "branch",
+      "label": "PDF v10: глава 87"
+    },
+    {
+      "id": "pdf_v10_l_88",
+      "from": "pdf_v10_ch_87",
+      "to": "pdf_v10_ch_88",
+      "type": "branch",
+      "label": "PDF v10: глава 88"
+    },
+    {
+      "id": "pdf_v10_l_89",
+      "from": "pdf_v10_ch_88",
+      "to": "pdf_v10_ch_89",
+      "type": "branch",
+      "label": "PDF v10: глава 89"
+    },
+    {
+      "id": "pdf_v10_l_90",
+      "from": "pdf_v10_ch_89",
+      "to": "pdf_v10_ch_90",
+      "type": "branch",
+      "label": "PDF v10: глава 90"
+    },
+    {
+      "id": "pdf_v10_l_91",
+      "from": "pdf_v10_ch_90",
+      "to": "pdf_v10_ch_91",
+      "type": "branch",
+      "label": "PDF v10: глава 91"
+    },
+    {
+      "id": "pdf_v10_l_92",
+      "from": "pdf_v10_ch_91",
+      "to": "pdf_v10_ch_92",
+      "type": "branch",
+      "label": "PDF v10: глава 92"
+    },
+    {
+      "id": "pdf_v10_l_93",
+      "from": "pdf_v10_ch_92",
+      "to": "pdf_v10_ch_93",
+      "type": "branch",
+      "label": "PDF v10: глава 93"
+    },
+    {
+      "id": "pdf_v10_l_94",
+      "from": "pdf_v10_ch_93",
+      "to": "pdf_v10_ch_94",
+      "type": "branch",
+      "label": "PDF v10: глава 94"
+    },
+    {
+      "id": "pdf_v10_l_95",
+      "from": "pdf_v10_ch_94",
+      "to": "pdf_v10_ch_95",
+      "type": "branch",
+      "label": "PDF v10: глава 95"
+    },
+    {
+      "id": "pdf_v10_l_96",
+      "from": "pdf_v10_ch_95",
+      "to": "pdf_v10_ch_96",
+      "type": "branch",
+      "label": "PDF v10: глава 96"
     }
   ],
   "dialogs": {
@@ -1091,6 +3861,12 @@
   "meta": {
     "history": [
       {
+        "time": "2026-06-02T20:30:51.822Z",
+        "user": "Yta",
+        "action": "Импортирована ветка PDF v10",
+        "details": "Добавлено узлов: 88, связей: 94"
+      },
+      {
         "time": "2026-06-02T20:30:31.564Z",
         "user": "Yta",
         "action": "Сохранение общего проекта",
@@ -1098,7 +3874,15 @@
       }
     ],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T20:30:44.125Z"
+    "lastSavedAt": "2026-06-02T20:30:54.201Z",
+    "sources": {
+      "bezdna_pamyat_glubin_tom1_v10": {
+        "title": "Бездна: Память Глубин — Том I v10",
+        "file": "Bezdna_Pamyat_Glubin_Tom_1_prodolzhenie_v10.pdf",
+        "chapters": 96,
+        "importedAt": "2026-06-02T20:30:51.822Z"
+      }
+    }
   },
   "selectedId": "n1780423610604"
 }
