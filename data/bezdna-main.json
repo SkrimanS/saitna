@@ -19,7 +19,7 @@
       "set": [
         "world_return_rule"
       ],
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "q_arrival",
@@ -90,7 +90,7 @@
         "met_marra",
         "edan_held_door"
       ],
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "q_debt",
@@ -1091,7 +1091,7 @@
   "meta": {
     "history": [],
     "lastSavedBy": "Yta",
-    "lastSavedAt": "2026-06-02T19:56:35.511Z"
+    "lastSavedAt": "2026-06-02T19:56:39.942Z"
   },
-  "selectedId": "q_prologue"
+  "selectedId": "q_marra"
 }
