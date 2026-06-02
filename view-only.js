@@ -6,9 +6,21 @@
   const WRITE_FNS = ['saveGitHub','uploadFile','saveQuest','addNode','delNode','addLine','addChoice','delLine','lUpd','cUpd'];
   let lastSnapshot = '';
   let armed = false;
+  let warningShown = false;
 
   function run(code){ return (0, eval)(code); }
-  function block(){ alert('Это режим просмотра. Редактирование отключено.'); return false; }
+  function showOnce(){
+    if (warningShown) return;
+    warningShown = true;
+    const text = 'Это режим просмотра. Редактирование отключено.';
+    try {
+      if (typeof status === 'function') status(text);
+      else alert(text);
+    } catch(_) {
+      alert(text);
+    }
+  }
+  function block(){ showOnce(); return false; }
   function isWriteText(text){ return WRITE_WORDS.some(w => String(text || '').includes(w)); }
 
   function snapshot(){
@@ -27,14 +39,13 @@
 
   function replaceWriteFunctions(){
     WRITE_FNS.forEach(name => { window[name] = block; });
-    // app.js sometimes reassigns these after renderRight(), so keep replacing lightly.
     try {
-      run('window.saveQuest = function(){alert("Это режим просмотра. Редактирование отключено.");return false};');
-      run('window.addNode = function(){alert("Это режим просмотра. Редактирование отключено.");return false};');
-      run('window.delNode = function(){alert("Это режим просмотра. Редактирование отключено.");return false};');
-      run('window.addLine = function(){alert("Это режим просмотра. Редактирование отключено.");return false};');
-      run('window.addChoice = function(){alert("Это режим просмотра. Редактирование отключено.");return false};');
-      run('window.delLine = function(){alert("Это режим просмотра. Редактирование отключено.");return false};');
+      run('window.saveQuest = function(){return false};');
+      run('window.addNode = function(){return false};');
+      run('window.delNode = function(){return false};');
+      run('window.addLine = function(){return false};');
+      run('window.addChoice = function(){return false};');
+      run('window.delLine = function(){return false};');
     } catch (_) {}
   }
 
@@ -73,9 +84,9 @@
     armed = true;
     replaceWriteFunctions();
     lockControls();
+    showOnce();
   }
 
-  // Block all write UI clicks, including controls that appear after switching tabs.
   document.addEventListener('click', e => {
     const t = (e.target.textContent || e.target.value || '').trim();
     const btn = e.target.closest && e.target.closest('button,label');
@@ -88,7 +99,6 @@
     }
   }, true);
 
-  // Prevent typing/editing in inspector fields created after render.
   document.addEventListener('beforeinput', e => {
     const el = e.target;
     if (el && el.matches && el.matches('input, textarea') && el.id !== 'search') {
@@ -110,7 +120,6 @@
     }
   }, true);
 
-  // If any code still changes state, revert it back to the loaded snapshot.
   setInterval(() => {
     if (!armed) return;
     replaceWriteFunctions();
