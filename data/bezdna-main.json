@@ -3034,6 +3034,12 @@
   "meta": {
     "history": [
       {
+        "time": "2026-06-23T03:15:00.275Z",
+        "user": "Локально",
+        "action": "Сохранение общего проекта",
+        "details": ""
+      },
+      {
         "time": "2026-06-02T21:43:03.328Z",
         "user": "Yta",
         "action": "Сохранение общего проекта",
@@ -3148,8 +3154,8 @@
         "details": ""
       }
     ],
-    "lastSavedBy": "Гость",
-    "lastSavedAt": "2026-06-08T14:35:41.754Z",
+    "lastSavedBy": "Гость-695",
+    "lastSavedAt": "2026-06-23T03:15:00.810Z",
     "sources": {
       "bezdna_pamyat_glubin_tom1_v10": {
         "title": "Бездна: Память Глубин — Том I v10",
